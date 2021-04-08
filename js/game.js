@@ -74,7 +74,7 @@ class Game{
                  
 
                  if (keyIsDown(RIGHT_ARROW) && player.index !== null) {
-                    player.distance -= 10
+                    player.distance -= 10       
                     player.update();
                 }
                 if (keyIsDown(LEFT_ARROW) && player.index !== null) {
